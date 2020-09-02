@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="Decathlon_output.xsl"?><competition>
+  <athletes>
+    <athlete>
+      <name>Kevin Mayer</name>
+      <place>1</place>
+      <total_score>9126</total_score>
+      <events>
+        <event name="100 m" performance="10.55 s" score="963"/>
+        <event name="Long jump" performance="7.8 m" score="1010"/>
+        <event name="Shot put" performance="16.0 m" score="851"/>
+        <event name="High jump" performance="2.05 m" score="850"/>
+        <event name="400 m" performance="48.42 s" score="889"/>
+        <event name="110 m hurdles" performance="13.75 s" score="1007"/>
+        <event name="Discus throw" performance="50.54 m" score="882"/>
+        <event name="Pole vault" performance="5.45 m" score="1051"/>
+        <event name="Javelin throw" performance="71.9 m" score="918"/>
+        <event name="1500 m" performance="4:36,11 m:s" score="705"/>
+      </events>
+    </athlete>
+    <athlete>
+      <name>Kevin Mayer</name>
+      <place>1</place>
+      <total_score>9126</total_score>
+      <events>
+        <event name="100 m" performance="10.55 s" score="963"/>
+        <event name="Long jump" performance="7.8 m" score="1010"/>
+        <event name="Shot put" performance="16.0 m" score="851"/>
+        <event name="High jump" performance="2.05 m" score="850"/>
+        <event name="400 m" performance="48.42 s" score="889"/>
+        <event name="110 m hurdles" performance="13.75 s" score="1007"/>
+        <event name="Discus throw" performance="50.54 m" score="882"/>
+        <event name="Pole vault" performance="5.45 m" score="1051"/>
+        <event name="Javelin throw" performance="71.9 m" score="918"/>
+        <event name="1500 m" performance="4:36,11 m:s" score="705"/>
+      </events>
+    </athlete>
+    <athlete>
+      <name>Siim Susi</name>
+      <place>3</place>
+      <total_score>4200</total_score>
+      <events>
+        <event name="100 m" performance="12.61 s" score="536"/>
+        <event name="Long jump" performance="5.0 m" score="382"/>
+        <event name="Shot put" performance="9.22 m" score="439"/>
+        <event name="High jump" performance="1.5 m" score="389"/>
+        <event name="400 m" performance="60.39 s" score="400"/>
+        <event name="110 m hurdles" performance="16.43 s" score="685"/>
+        <event name="Discus throw" performance="21.6 m" score="302"/>
+        <event name="Pole vault" performance="2.6 m" score="264"/>
+        <event name="Javelin throw" performance="35.81 m" score="382"/>
+        <event name="1500 m" performance="5:25,72 m:s" score="421"/>
+      </events>
+    </athlete>
+    <athlete>
+      <name>Jaana Lind</name>
+      <place>4</place>
+      <total_score>3494</total_score>
+      <events>
+        <event name="100 m" performance="13.75 s" score="348"/>
+        <event name="Long jump" performance="4.84 m" score="352"/>
+        <event name="Shot put" performance="10.12 m" score="493"/>
+        <event name="High jump" performance="1.5 m" score="389"/>
+        <event name="400 m" performance="68.44 s" score="172"/>
+        <event name="110 m hurdles" performance="19.18 s" score="417"/>
+        <event name="Discus throw" performance="30.85 m" score="481"/>
+        <event name="Pole vault" performance="2.8 m" score="309"/>
+        <event name="Javelin throw" performance="33.88 m" score="354"/>
+        <event name="1500 m" performance="6:22,75 m:s" score="179"/>
+      </events>
+    </athlete>
+    <athlete>
+      <name>Beata Kana</name>
+      <place>5</place>
+      <total_score>3199</total_score>
+      <events>
+        <event name="100 m" performance="13.04 s" score="461"/>
+        <event name="Long jump" performance="4.53 m" score="295"/>
+        <event name="Shot put" performance="7.79 m" score="354"/>
+        <event name="High jump" performance="1.55 m" score="426"/>
+        <event name="400 m" performance="64.72 s" score="267"/>
+        <event name="110 m hurdles" performance="18.74 s" score="455"/>
+        <event name="Discus throw" performance="24.2 m" score="352"/>
+        <event name="Pole vault" performance="2.4 m" score="220"/>
+        <event name="Javelin throw" performance="28.2 m" score="274"/>
+        <event name="1500 m" performance="6:50,76 m:s" score="95"/>
+      </events>
+    </athlete>
+    <athlete>
+      <name>Anti Loop</name>
+      <place>6</place>
+      <total_score>3099</total_score>
+      <events>
+        <event name="100 m" performance="13.43 s" score="397"/>
+        <event name="Long jump" performance="4.35 m" score="264"/>
+        <event name="Shot put" performance="8.64 m" score="404"/>
+        <event name="High jump" performance="1.5 m" score="389"/>
+        <event name="400 m" performance="66.06 s" score="230"/>
+        <event name="110 m hurdles" performance="19.05 s" score="428"/>
+        <event name="Discus throw" performance="24.89 m" score="365"/>
+        <event name="Pole vault" performance="2.2 m" score="179"/>
+        <event name="Javelin throw" performance="33.48 m" score="348"/>
+        <event name="1500 m" performance="6:51,01 m:s" score="95"/>
+      </events>
+    </athlete>
+  </athletes>
+</competition>
