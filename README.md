@@ -12,7 +12,6 @@ Try to keep your code as readable as possible. We value code simplicity. Use obj
 Good luck!
 
 ### Setup Firefox to view XSL in browser
-setup FF
 1. In a new tab, type or paste about:config in the address bar and press Enter/Return. Click the button promising to be careful or accepting the risk.
 2. In the search box above the list, type or paste uniq and pause while the list is filtered
 3. Double-click the privacy.file_unique_origin preference to switch the value from true to false
