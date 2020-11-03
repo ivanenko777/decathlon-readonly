@@ -13,7 +13,7 @@ public class DecathlonRunner {
         competition.createAthletes();
         competition.calcTotalScores();
         competition.sortAthletesByTotalScores();
-        competition.assingPlaces();
+        competition.assignPlaces();
 
         GenerateXml xml = new GenerateXml(competition.getAthletes(), outputPath);
         xml.generate();

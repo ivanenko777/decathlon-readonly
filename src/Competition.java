@@ -42,7 +42,7 @@ public class Competition {
         });
     }
 
-    public void assingPlaces() {
+    public void assignPlaces() {
 //        https://stackoverflow.com/questions/55204613/rank-students-based-on-score
         int lastScore = Integer.MAX_VALUE;
         int rank = 0;
