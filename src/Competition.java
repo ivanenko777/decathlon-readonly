@@ -1,14 +1,17 @@
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
 
 public class Competition {
     private List<String[]> fileData;
     private List<Athlete> athletes;
+    private HashMap<Integer, Integer> scoresCount;
 
     public Competition(List<String[]> fileData) {
         this.fileData = fileData;
         this.athletes = new ArrayList<>();
+        this.scoresCount = new HashMap<>();
     }
 
     public List<Athlete> getAthletes() {
@@ -25,6 +28,12 @@ public class Competition {
     public void calcTotalScores() {
         for (Athlete athlete : this.athletes) {
             athlete.calcTotalScore();
+
+            // count scores: 1244 -> 1 , 2588 -> 2
+            int totalScore = athlete.getTotalScore();
+            this.scoresCount.putIfAbsent(totalScore, 0);
+            int count = scoresCount.get(totalScore) + 1;
+            this.scoresCount.put(totalScore, count);
         }
     }
 
@@ -46,13 +55,14 @@ public class Competition {
 //        https://stackoverflow.com/questions/55204613/rank-students-based-on-score
         int lastScore = Integer.MAX_VALUE;
         int rank = 0;
-        int displayRank = rank;
+        String displayRank = "";
         for (Athlete athlete : athletes) {
             rank++;
+            int scoreCount = this.scoresCount.get(athlete.getTotalScore());
             if (athlete.getTotalScore() < lastScore) {
-                displayRank = rank;
+                displayRank = scoreCount == 1 ? String.valueOf(rank) : String.format("%d-%d", rank, rank + scoreCount - 1);
             }
-            athlete.setPlace(String.valueOf(displayRank));
+            athlete.setPlace(displayRank);
             lastScore = athlete.getTotalScore();
         }
     }

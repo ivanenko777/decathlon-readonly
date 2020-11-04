@@ -3,7 +3,7 @@
   <athletes>
     <athlete>
       <name>Kevin Mayer</name>
-      <place>1</place>
+      <place>1-2</place>
       <total_score>9126</total_score>
       <events>
         <event name="100 m" performance="10.55 s" score="963"/>
@@ -20,7 +20,7 @@
     </athlete>
     <athlete>
       <name>Kevin Mayer</name>
-      <place>1</place>
+      <place>1-2</place>
       <total_score>9126</total_score>
       <events>
         <event name="100 m" performance="10.55 s" score="963"/>
