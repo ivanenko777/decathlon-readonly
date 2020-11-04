@@ -2,8 +2,8 @@ import java.util.List;
 
 public class DecathlonRunner {
     public static void main(String[] args) {
-        String inputPath = "C:\\Users\\mail\\OneDrive\\Desktop\\VCS_JAVA&ANDROID\\code_decathlon\\Decathlon_input.txt";
-        String outputPath = "C:\\Users\\mail\\OneDrive\\Desktop\\VCS_JAVA&ANDROID\\code_decathlon\\Decathlon_output.xml";
+        String inputPath = "C:\\Users\\mail\\Develop\\IdeaProjects\\VCS_JAVA-decathlon\\Decathlon_input.txt";
+        String outputPath = "C:\\Users\\mail\\Develop\\IdeaProjects\\VCS_JAVA-decathlon\\Decathlon_output.xml";
 
         FileReader fileReader = new FileReader(inputPath);
         fileReader.readFile();
