@@ -1,5 +1,4 @@
 # Decathlon
-> Vilnius Coding Shool - Java Project
 
 ### Tasks
 The task is about Decathlon competition.
