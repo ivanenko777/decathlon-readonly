@@ -1,4 +1,4 @@
-name: push to github
+name: Synchronize repository
 on: 
   push:
     branches:
