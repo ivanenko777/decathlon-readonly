@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class FileReader {
-    // QUESTION: ar path saugoti kaip lauka?
     private String path;
     private List<String[]> fileData;
 
